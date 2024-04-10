@@ -9,6 +9,9 @@ The main.go is the output of the tutorial. You write it as you go and end up wit
 - Why are the nomad calls using web requests instead of the SDK?
 
 The nomad calls should indeed use the SDK, but since the main reason for making this was learning and having fun, I have decided to use the HTTP endpoint with requests. I might actually change this at some point
+- Where is the error handling?
+Ermmm... yeah ...
+This is by no means a bulletproof app, it was just made to poke a bit of fun and help me learn. Crashes are 100% possible. If it happens make sure to clean up your meteor* containers in Docker manually
 
 ## Starting up
 You need to install and start a nomad agent in dev mode before starting the application with the standard go run main.go
